@@ -1,0 +1,281 @@
+body{
+	margin: 0;
+	padding:0;
+	font:normal 62.5% Helvetica,Arial,sans-serif;
+}
+/*内容总区域样式*/
+.glc_container{
+	min-width: 1200px;
+	font-family: "微软雅黑";
+}
+/*banner部分样式*/
+.glc_banner{
+	position: relative;
+	min-width: 1200px;
+}
+.glc_banner_img{
+	width: 100%;
+}
+/*数字一icon*/
+.glc_oneIcon{
+	position: absolute;
+	width: 5.729167%;
+	min-width: 68.75px;
+	z-index: 999;
+	left: 55.95%;
+	top: 33%;
+	-webkit-transform: scale(0.5);
+	   -moz-transform: scale(0.5);
+	    -ms-transform: scale(0.5);
+	     -o-transform: scale(0.5);
+	        transform: scale(0.5);
+	-webkit-animation: bigger 2s linear 1 forwards;
+       -moz-animation: bigger 2s linear 1 forwards;
+        -ms-animation: bigger 2s linear 1 forwards;
+         -o-animation: bigger 2s linear 1 forwards;
+	        animation: bigger 2s linear 1 forwards;
+}
+@-webkit-keyframes bigger{
+	from{transform: scale(0.5);}
+	to{transform: scale(1);}
+}
+@-moz-keyframes bigger{
+	from{transform: scale(0.5);}
+	to{transform: scale(1);}
+}
+@-o-keyframes bigger{
+	from{transform: scale(0.5);}
+	to{transform: scale(1);}
+}
+@keyframes bigger{
+	from{transform: scale(0.5);}
+	to{transform: scale(1);}
+}
+/*瑞泽icon*/
+.glc_ruizeIcon{
+	position: absolute;
+	width: 2.083333%;
+	min-width: 25px;
+	border-radius: 50%;
+	z-index: 999;
+	left: 68.95%;
+	top: 78%;
+	-webkit-animation: moveIcon 6s linear 1 forwards;
+       -moz-animation: moveIcon 6s linear 1 forwards;
+         -o-animation: moveIcon 6s linear 1 forwards;
+	        animation: moveIcon 6s linear 1 forwards;
+}
+@-webkit-keyframes moveIcon{
+	0%{left: 68.95%;top: 78%;}
+	25%{left: 58.95%;top:75%;}
+	50%{left: 48.95%;top: 80%;}
+	75%{left: 38.95%;top: 75%;}
+	100%{left: 28.95%;top: 77.8%;}
+}
+@-moz-keyframes moveIcon{
+	0%{left: 68.95%;top: 78%;}
+	25%{left: 58.95%;top:75%;}
+	50%{left: 48.95%;top: 80%;}
+	75%{left: 38.95%;top: 75%;}
+	100%{left: 28.95%;top: 77.8%;}
+}
+@-o-keyframes moveIcon{
+	0%{left: 68.95%;top: 78%;}
+	25%{left: 58.95%;top:75%;}
+	50%{left: 48.95%;top: 80%;}
+	75%{left: 38.95%;top: 75%;}
+	100%{left: 28.95%;top: 77.8%;}
+}
+@keyframes moveIcon{
+	0%{left: 68.95%;top: 78%;}
+	25%{left: 58.95%;top:75%;}
+	50%{left: 48.95%;top: 80%;}
+	75%{left: 38.95%;top: 75%;}
+	100%{left: 28.95%;top: 77.8%;}
+}
+/*中部区域样式*/
+.glc_center{
+	min-width: 1200px;
+	margin-top: -4px;
+	position: relative;
+}
+/*中部背景区域图像*/
+.glc_center_img{
+	position: relative;
+	width: 100%;
+}
+/*中部区域——上部样式*/
+.glc_center_top{
+	min-width: 1200px;
+	margin-top: -4px;
+}
+
+/*中部区域——中部样式*/
+.glc_center_center{
+	min-width: 1200px;
+	margin-top: -4px;
+}
+
+/*中部区域——下部样式*/
+.glc_center_low{
+	min-width: 1200px;
+	margin-top: -4px;
+}
+/*中部区域红包*/
+.glc_hongbao{
+	position: absolute;
+	width: 12.760417%;
+	min-width: 153.125px;
+	z-index: 999;
+}
+.glc_hongbao:hover{
+	-webkit-transform: scale(0.85);
+	   -moz-transform: scale(0.85);
+		-ms-transform: scale(0.85);
+		 -o-transform: scale(0.85);
+	        transform: scale(0.85);
+}
+/*红包一样式*/
+.glc_hongbao_one{
+	position: absolute;
+	left: 25.6%;
+	margin-top: 18.5%;
+}
+/*红包二样式*/
+.glc_hongbao_two{
+	position: absolute;
+	left: 61.3%;
+	margin-top: 13.9%;
+}
+/*红包三样式*/
+.glc_hongbao_three{
+	position: absolute;
+	left: 25.5%;
+	margin-top: 14%;
+}
+/*使用条件和领取条件*/
+.glc_lingqu{
+	position: absolute;
+	width: 17.1875%;
+	min-width: 206.25px;
+	z-index: 999;
+	font-size: 1.3vw;
+	left: 46.875%;
+	margin-top: 22.5%;
+}
+.glc_shiyong{
+	position: absolute;
+	text-align: center;
+	width: 17.1875%;
+	min-width: 206.25px;	
+	z-index: 999;
+	font-size: 1.3vw;
+	left: 46.875%;
+	margin-top: 32.5%;
+}
+.glc_lingqu_two{
+	font-size: 1.2vw;
+	color: #fff;
+	left: 34.895833%;
+	margin-top: 17.5%;
+}
+.glc_shiyong_two{
+	font-size: 1.2vw;
+	color: #fff;
+	left: 34.895833%;
+	margin-top: 28.5%;
+}
+.glc_lingqu_three{
+	margin-top: 18%;
+}
+.glc_shiyong_three{
+	margin-top: 28.5%;
+}
+.glc_em{
+	color: #000;
+	font-weight: 600;
+	font-size: 1.3vw;
+}
+/*下部样式*/
+.glc_low{
+	position: relative;
+	min-width: 1200px;
+	margin-top: -4px;
+}
+.glc_low img{
+	width: 100%;
+}
+/*活动说明*/
+
+.glc_low_shuoming{
+	position: absolute;
+	z-index: 999;
+	width: 50.520833%;
+	min-width: 606.249996px;
+	left: 23.4375%;
+	margin-top: 14%;
+	font-size: 1.2vw;
+	line-height: 33.5px;
+}
+/*一马当先*/
+.glc_center_icon{
+	position: absolute;
+	z-index: 999;
+	width: 32.395833%;
+	min-width: 388.75px;
+	-webkit-transform: rotateX(90deg);
+       -moz-transform: rotateX(90deg);
+        -ms-transform: rotateX(90deg);
+         -o-transform: rotateX(90deg);
+	        transform: rotateX(90deg);
+	-webkit-animation: fanzhuan 8s ease-in-out 1 forwards;
+	   -moz-animation: fanzhuan 8s ease-in-out 1 forwards;
+	     -o-animation: fanzhuan 8s ease-in-out 1 forwards;  
+	        animation: fanzhuan 8s ease-in-out 1 forwards;
+}
+
+@-webkit-keyframes fanzhuan{
+	from{transform: rotateX(90deg);}
+	to  {transform: rotateX(0deg);}
+}
+@-moz-keyframes fanzhuan{
+	from{transform: rotateX(90deg);}
+	to  {transform: rotateX(0deg);}
+}
+@-o-keyframes fanzhuan{
+	from{transform: rotateX(90deg);}
+	to  {transform: rotateX(0deg);}
+}
+@keyframes fanzhuan{
+	from{transform: rotateX(90deg);}
+	to  {transform: rotateX(0deg);}
+}
+.glc_yima{
+	left: 32.8125%;
+	top: 4.2%;
+}
+.glc_duzhan{
+	left: 32.8125%;
+	top: 35.96%;
+}
+.glc_yichui{
+	left: 32.8125%;
+	top: 67.8%;
+}
+@media screen and (max-width: 900px){
+	.glc_low_shuoming{
+		font-size: 2vw;
+	}
+	.glc_lingqu{
+	    font-size: 2vw;
+	}
+	.glc_shiyong{
+		font-size: 2vw;
+	}
+	.glc_lingqu_two{
+		font-size: 1.6vw;
+	}
+	.glc_shiyong_two{
+		font-size: 2vw;
+	}
+}
